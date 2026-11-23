@@ -50,8 +50,8 @@ export const celebrations: Celebration[] = [
 ];
 
 export const venue = {
-  name: "Rajmahal Palace",
-  address: "[Venue address to be added]",
+  name: "Laxmi Lawns",
+  address: "Kharde Bk, Maharashtra 425405",
 };
 
 export function mapsUrl(name: string, address: string) {
