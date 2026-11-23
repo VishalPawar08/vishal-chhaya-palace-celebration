@@ -7,7 +7,7 @@ export const couple = {
   hashtag: "#VishalWedsChhaya",
 };
 
-export const weddingDateTime = "2027-02-14T19:00:00+05:30";
+export const weddingDateTime = "2026-12-30T10:30:00+05:30";
 
 export type Celebration = {
   name: string;
@@ -20,19 +20,19 @@ export const celebrations: Celebration[] = [
   {
     name: "Mehendi",
     tagline: "Henna, music & marigolds",
-    start: "2027-02-12T16:00:00+05:30",
+    start: "2026-12-28T16:00:00+05:30",
     dressCode: "Shades of green & floral prints",
   },
   {
     name: "Haldi",
     tagline: "A morning bathed in turmeric",
-    start: "2027-02-13T10:00:00+05:30",
+    start: "2026-12-29T10:00:00+05:30",
     dressCode: "Sunshine yellow",
   },
   {
     name: "Sangeet",
     tagline: "An evening of song & dance",
-    start: "2027-02-13T19:30:00+05:30",
+    start: "2026-12-29T19:30:00+05:30",
     dressCode: "Glamorous Indo-western",
   },
   {
@@ -44,7 +44,7 @@ export const celebrations: Celebration[] = [
   {
     name: "Reception",
     tagline: "Dinner & celebrations",
-    start: "2027-02-15T20:00:00+05:30",
+    start: "2026-12-30T19:30:00+05:30",
     dressCode: "Black-tie evening elegance",
   },
 ];
