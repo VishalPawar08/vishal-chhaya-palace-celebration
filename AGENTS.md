@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- All invitation content (names, dates, events, venue) lives in `src/lib/wedding.ts`; components read from it so details change in one place.
+- Event times are stored as ISO strings with the +05:30 offset and formatted in Asia/Kolkata, so guests anywhere see Indian local times.
+- RSVPs are inserted from the browser into `rsvps` with an insert-only policy; no one can read replies from the site.
