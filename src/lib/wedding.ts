@@ -26,7 +26,7 @@ export const celebrations: Celebration[] = [
   {
     name: "Engagement",
     tagline: "The exchange of rings",
-    start: "2026-12-28T19:30:00+05:30",
+    start: "2026-12-29T10:00:00+05:30",
     dressCode: "Elegant pastels",
   },
   {
