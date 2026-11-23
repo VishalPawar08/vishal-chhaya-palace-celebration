@@ -38,7 +38,7 @@ export const celebrations: Celebration[] = [
   {
     name: "Sangeet",
     tagline: "An evening of song & dance",
-    start: "2026-12-29T19:30:00+05:30",
+    start: "2026-12-29T19:00:00+05:30",
     dressCode: "Glamorous Indo-western",
   },
   {
