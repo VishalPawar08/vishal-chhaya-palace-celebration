@@ -24,6 +24,12 @@ export const celebrations: Celebration[] = [
     dressCode: "Shades of green & floral prints",
   },
   {
+    name: "Engagement",
+    tagline: "The exchange of rings",
+    start: "2026-12-28T19:30:00+05:30",
+    dressCode: "Elegant pastels",
+  },
+  {
     name: "Haldi",
     tagline: "A morning bathed in turmeric",
     start: "2026-12-29T10:00:00+05:30",
@@ -36,16 +42,10 @@ export const celebrations: Celebration[] = [
     dressCode: "Glamorous Indo-western",
   },
   {
-    name: "Wedding",
-    tagline: "The sacred pheras",
+    name: "Wedding & Pheras",
+    tagline: "Seven sacred vows around the holy fire",
     start: weddingDateTime,
     dressCode: "Royal traditional — reds & golds",
-  },
-  {
-    name: "Reception",
-    tagline: "Dinner & celebrations",
-    start: "2026-12-30T19:30:00+05:30",
-    dressCode: "Black-tie evening elegance",
   },
 ];
 

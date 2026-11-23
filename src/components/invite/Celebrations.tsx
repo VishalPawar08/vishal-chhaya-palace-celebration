@@ -1,4 +1,4 @@
-import { CalendarDays, Clock, Flame, Hand, Music, Shirt, Sparkles, Sun } from "lucide-react";
+import { CalendarDays, Clock, Flame, Gem, Hand, Music, Shirt, Sparkles, Sun } from "lucide-react";
 
 import { Reveal } from "@/components/invite/Reveal";
 import { celebrations, formatDate, formatTime } from "@/lib/wedding";
@@ -7,8 +7,8 @@ const ICONS: Record<string, typeof Sun> = {
   Mehendi: Hand,
   Haldi: Sun,
   Sangeet: Music,
-  Wedding: Flame,
-  Reception: Sparkles,
+  Engagement: Gem,
+  "Wedding & Pheras": Flame,
 };
 
 export function Celebrations() {
