@@ -31,8 +31,8 @@ export const celebrations: Celebration[] = [
   },
   {
     name: "Haldi",
-    tagline: "A morning bathed in turmeric",
-    start: "2026-12-29T10:00:00+05:30",
+    tagline: "An afternoon bathed in turmeric",
+    start: "2026-12-29T16:00:00+05:30",
     dressCode: "Sunshine yellow",
   },
   {
