@@ -9,7 +9,6 @@ import { MusicToggle } from "@/components/invite/MusicToggle";
 import { Opening } from "@/components/invite/Opening";
 import { Ornament, SectionHeading } from "@/components/invite/Ornament";
 import { Reveal } from "@/components/invite/Reveal";
-import { Rsvp } from "@/components/invite/Rsvp";
 import { ScratchCard } from "@/components/invite/ScratchCard";
 import { Venue } from "@/components/invite/Venue";
 import { couple, weddingDateTime } from "@/lib/wedding";
@@ -96,20 +95,6 @@ function Index() {
         </section>
 
         <Venue />
-
-        <section id="rsvp" className="px-5 py-20">
-          <div className="mx-auto max-w-xl">
-            <Reveal>
-              <SectionHeading eyebrow="Kindly respond" title="RSVP" />
-              <p className="-mt-4 mb-8 text-center font-script text-xl italic text-muted-foreground">
-                Your presence is the greatest gift we could ask for
-              </p>
-            </Reveal>
-            <Reveal delay={120}>
-              <Rsvp />
-            </Reveal>
-          </div>
-        </section>
 
         <footer className="px-5 pb-16 pt-4 text-center">
           <Ornament />
